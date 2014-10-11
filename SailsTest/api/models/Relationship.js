@@ -1,5 +1,5 @@
 /**
- * Post
+ * Relationship
  *
  * @module      :: Model
  * @description :: A short summary of how this model works and what it represents.
@@ -9,12 +9,13 @@
 module.exports = {
 
   attributes: {
-    postId: 'GUID',
-    postTime: 'DATETIME',
-    content: 'STRING',
+    relationshipId: 'GUID',
+    startTime: 'DATETIME',
+    endTime: 'DATETIME',
 
-    author:{
-        model: 'User',
+    people:{
+        collection: 'User',
+        via: 'love',
     },
   },
 

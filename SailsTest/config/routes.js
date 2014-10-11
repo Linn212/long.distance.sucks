@@ -36,21 +36,6 @@ module.exports.routes = {
     view: 'home/index'
   },
 
-  'post /post': {
-    controller: 'post',
-    action: 'add'
-  },
-
-  'get /post/:id?': {
-    controller: 'post',
-    action: 'find'
-  },
-
-  'put /post/:id': {
-    controller: 'post',
-    action: 'edit'
-  }
-
   /*
   // But what if you want your home page to display
   // a signup form located at `views/user/signup.ejs`?

@@ -1,5 +1,5 @@
 /**
- * PostController
+ * UserController
  *
  * @module      :: Controller
  * @description	:: A set of functions called `actions`.
@@ -16,12 +16,15 @@
  */
 
 module.exports = {
+    
+  
 
 
   /**
    * Overrides for the settings in `config/controllers.js`
-   * (specific to PostController)
+   * (specific to UserController)
    */
   _config: {}
 
+  
 };
